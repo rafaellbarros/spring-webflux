@@ -1,6 +1,5 @@
 package com.apirest.webflux.router;
 
-import com.apirest.webflux.document.Playlist;
 import com.apirest.webflux.handler.PlaylistHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -11,7 +10,7 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 
 import static org.springframework.web.reactive.function.server.RequestPredicates.*;
 
-@Configuration
+// @Configuration
 public class PlaylistRouter {
 
     @Bean
